@@ -1,2 +1,26 @@
-<h1>This site is under construction</h1>
-<p>Come back soon!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Business Sites</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Get Your Own Minecraft Business Website</h1>
+        <button class="signup-btn" onclick="showForm()">Sign Up</button>
+    </div>
+
+    <div class="signup-form" id="signupForm">
+        <button class="close-btn" onclick="hideForm()">X</button>
+        <h2>Sign Up</h2>
+        <input type="text" placeholder="Site Name" required>
+        <input type="text" placeholder="Minecraft Username" required>
+        <input type="text" placeholder="Discord Username" required>
+        <button>Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
